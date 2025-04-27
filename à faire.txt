@@ -1,0 +1,37 @@
+Dashboard :
+	-Statestiques (remplacer les statestiques client)
+	-Ajouter infos de l'utilisateur à l'affichage de statestiques devis
+	-vérifier les statestiques
+
+ClientForm : 
+	-les checkboxes ne fonctionnent pas correctement (ajouter la condition chkBx.val !== "0")
+	-le point de vente et son libelle ne sont pas récuperé de la base
+	-les checkboxes contrat et blockage ne fonctionnet pas
+	-le select "tarif" n'a pas une valeur qui vient de base
+	-vérifier les checkbox "fidele" et "autre tva"
+	-les champs checkbox ne peuvent pas etres cochés
+	-l'ajout ne fonctionne pas X
+	-le modification ne fonctionne pas X
+	-le suppression fonctionne
+	-navigation fonctionnel 
+	-les valeurs de champs suivants ne sont pas récuperé lors d'un requete GET d'un client :
+AlertModifier: 
+	-le message ne'affiche pas correctement
+Liste Client : 
+	-interface fonctionnel 
+Devis : 
+	-Le filtre d'interface devis ne fonctionne pas
+	-Le prix unitaire doit etre modifiable (pas nécessairement vient de bd)
+	-les champs d'interface devis ne sont pas responsive sur mobile
+	-mttc, pu, mt net doivenet etres calculés par rapport au changement effectués sur les autres champs.
+	-le champs remise peut etre vide
+	-La méthode d'ajout ne fonctionne pas (maintenant semi-fonctionnel)
+DateCreatMAJ : 
+	-l'affichage des informations de maj ne s'effectue pas
+ListeSociété : 
+	-Le nom du société séléctionné doit etre ajouté dans la colonne socutil du table utilisateur
+
+Tout slices : 
+	-ajouter un objet de base pour tout objets
+SignInPage: 
+	-Réinitialisation de mot de passe
